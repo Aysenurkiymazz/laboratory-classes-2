@@ -1,0 +1,2 @@
+Nazwa: jablko, Cena: 5
+Nazwa: banan, Cena: 7

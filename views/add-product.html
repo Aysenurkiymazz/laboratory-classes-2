@@ -1,0 +1,24 @@
+<!-- views/add-product.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dodaj Produkt</title>
+</head>
+<body>
+  <h1>Dodawanie nowego produktu</h1>
+  <form action="/product/add" method="POST">
+    <label>Nazwa produktu:
+      <input type="text" name="name" />
+    </label>
+    <br /><br />
+    <label>Cena:
+      <input type="number" name="price" />
+    </label>
+    <br /><br />
+    <button type="submit">Dodaj</button>
+  </form>
+  <br />
+  <a href="/">Powrót do strony głównej</a>
+</body>
+</html>
